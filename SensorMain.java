@@ -153,8 +153,8 @@ public class SensorMain implements Runnable {
 		}
 
 
-		String host = sensorProps.getProperty("zentral.server.address");
-
+		//String host = sensorProps.getProperty("zentral.server.address");
+		String host = "141.100.42.142";		//put ip address of server here
 		InetAddress receiveAddr = null;
 		try {
 			receiveAddr = InetAddress.getByName(host);
